@@ -46,6 +46,15 @@ idf.py save-defconfig
 ```text
 SmarthandFirmware/
 ├── CMakeLists.txt
+├── components/
+│   └── bsp/
+│       ├── CMakeLists.txt
+│       ├── include/
+│       │   └── pca9685.h
+│       ├── src/
+│       │   └── pca9685.c
+│       ├── LICENSE
+│       └── README.md
 ├── main/
 │   ├── CMakeLists.txt
 │   └── main.c

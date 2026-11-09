@@ -45,6 +45,13 @@ idf.py -p /dev/ttyACM0 flash monitor
 ├── README.md
 └── SmarthandFirmware/
     ├── CMakeLists.txt
+    ├── components/
+    │   └── bsp/
+    │       ├── CMakeLists.txt
+    │       ├── include/pca9685.h
+    │       ├── src/pca9685.c
+    │       ├── LICENSE
+    │       └── README.md
     ├── main/
     │   ├── CMakeLists.txt
     │   └── main.c
@@ -54,4 +61,4 @@ idf.py -p /dev/ttyACM0 flash monitor
 
 ## 使用许可
 
-当前固件源码采用仓库中的 [PolyForm Noncommercial License 1.0.0](./LICENSE)，允许个人学习、研究、测试和业余制作等非商业用途。商业用途不在许可范围内，需另行取得许可。该许可文本的适用范围为软件源码。
+项目自有固件源码采用仓库中的 [PolyForm Noncommercial License 1.0.0](./LICENSE)，允许个人学习、研究、测试和业余制作等非商业用途。商业用途不在许可范围内，需另行取得许可。第三方组件按其目录中的许可文件授权；PCA9685 驱动采用 Apache-2.0，详见 [`SmarthandFirmware/components/bsp`](./SmarthandFirmware/components/bsp)。
