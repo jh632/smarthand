@@ -1,0 +1,15 @@
+# ESP-IDF build and local configuration
+SmarthandFirmware/build/
+SmarthandFirmware/sdkconfig
+SmarthandFirmware/sdkconfig.old
+SmarthandFirmware/.cache/
+SmarthandFirmware/managed_components/
+
+# Local editor and workspace files
+.vscode/
+SmarthandFirmware/.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
